@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Technical Training Center (TTC)</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <div class="container">
+        <!-- Header Top Section -->
+<header class="bg-dark text-white py-2 border-bottom border-secondary">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <div class="d-flex gap-3 small">
+            <span><i class="bi bi-envelope-fill text-primary me-1"></i> info@ttc-edu.gov.bd</span>
+            <span><i class="bi bi-telephone-fill text-primary me-1"></i> +880 01758484392</span>
+        </div>
+        <div class="d-flex align-items-center gap-3 mt-2 mt-md-0">
+            <span id="currentDateTime" class="small border-end pe-3 me-2"></span>
+            <a href="login.html" class="text-white text-decoration-none small"><i class="bi bi-person-circle me-1"></i> Login</a>
+        </div>
+    </div>
+</header>
+
+<!-- Navigation Section -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm py-3">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-primary fs-3" href="index.html">
+            <i class="bi bi-mortarboard-fill me-2"></i>NJTC
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMain">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                <li class="nav-item"><a class="nav-link" href="teacher.html">Teacher</a></li>
+                <li class="nav-item"><a class="nav-link active" href="notice.html">Notice</a></li>
+                <li class="nav-item"><a class="nav-link" href="admission.html">Admission</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item ms-lg-3"><a class="btn btn-primary rounded-pill px-4" href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- //------------------------------------------------------------------------------------------------------------------------------// -->
+    <!-- Breadcrumb Section -->
+<section class="bg-light py-4 border-bottom">
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="home.html" class="text-decoration-none">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Notice Board</li>
+            </ol>
+        </nav>
+    </div>
+</section>
+
+<!-- Latest Notice List Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-end mb-4">
+            <div>
+                <h6 class="text-primary fw-bold text-uppercase">Updates</h6>
+                <h2 class="fw-bold">Latest Notices</h2>
+            </div>
+            <div class="d-none d-md-block">
+                <button class="btn btn-outline-primary btn-sm"><i class="bi bi-filter me-1"></i> Filter by Category</button>
+            </div>
+        </div>
+
+        <div class="notice-container shadow-sm rounded-4 overflow-hidden border">
+            <!-- Notice Item 1 -->
+            <div class="notice-item d-flex flex-column flex-md-row align-items-md-center p-4 border-bottom bg-white">
+                <div class="date-box bg-primary text-white text-center rounded p-2 me-md-4 mb-3 mb-md-0">
+                    <span class="d-block fw-bold fs-4 lh-1">25</span>
+                    <span class="small text-uppercase">Oct</span>
+                </div>
+                <div class="flex-grow-1">
+                    <span class="badge bg-danger mb-2">Urgent</span>
+                    <h5 class="fw-bold mb-1">Final Examination Schedule - Winter 2024</h5>
+                    <p class="text-muted small mb-0">The final examinations for all trades will commence from November 15th. Please check your roll numbers.</p>
+                </div>
+                <div class="ms-md-4 mt-3 mt-md-0">
+                    <a href="#" class="btn btn-primary btn-sm px-3 rounded-pill">
+                        <i class="bi bi-download me-1"></i> PDF
+                    </a>
+                </div>
+            </div>
+
+            <!-- Notice Item 2 -->
+            <div class="notice-item d-flex flex-column flex-md-row align-items-md-center p-4 border-bottom bg-light">
+                <div class="date-box bg-secondary text-white text-center rounded p-2 me-md-4 mb-3 mb-md-0">
+                    <span class="d-block fw-bold fs-4 lh-1">18</span>
+                    <span class="small text-uppercase">Oct</span>
+                </div>
+                <div class="flex-grow-1">
+                    <span class="badge bg-info mb-2">Admission</span>
+                    <h5 class="fw-bold mb-1">Revised Fees for Graphic Design Course</h5>
+                    <p class="text-muted small mb-0">Updated fee structure for the new batch starting in January 2025 has been published.</p>
+                </div>
+                <div class="ms-md-4 mt-3 mt-md-0">
+                    <a href="#" class="btn btn-primary btn-sm px-3 rounded-pill">
+                        <i class="bi bi-download me-1"></i> Download
+                    </a>
+                </div>
+            </div>
+
+            <!-- Notice Item 3 -->
+            <div class="notice-item d-flex flex-column flex-md-row align-items-md-center p-4 bg-white">
+                <div class="date-box bg-secondary text-white text-center rounded p-2 me-md-4 mb-3 mb-md-0">
+                    <span class="d-block fw-bold fs-4 lh-1">10</span>
+                    <span class="small text-uppercase">Oct</span>
+                </div>
+                <div class="flex-grow-1">
+                    <span class="badge bg-success mb-2">Holiday</span>
+                    <h5 class="fw-bold mb-1">Notice Regarding Durga Puja Holidays</h5>
+                    <p class="text-muted small mb-0">Institue will remain closed from October 20th to October 24th due to religious festivals.</p>
+                </div>
+                <div class="ms-md-4 mt-3 mt-md-0">
+                    <a href="#" class="btn btn-primary btn-sm px-3 rounded-pill">
+                        <i class="bi bi-download me-1"></i> View
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <nav aria-label="Page navigation">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<!-- Academic Calendar Section -->
+<section class="py-5 bg-light border-top border-bottom">
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-5">
+                <h3 class="fw-bold mb-3"><i class="bi bi-calendar3 text-primary me-2"></i>Academic Calendar</h3>
+                <p class="text-muted">Stay informed about the academic year, including semester starts, mid-terms, and public holidays. Planning ahead is key to success.</p>
+                <div class="list-group list-group-flush rounded-4 overflow-hidden shadow-sm">
+                    <div class="list-group-item d-flex justify-content-between align-items-center py-3 px-4">
+                        <span>January Session Starts</span>
+                        <span class="badge bg-primary rounded-pill">Jan 05</span>
+                    </div>
+                    <div class="list-group-item d-flex justify-content-between align-items-center py-3 px-4">
+                        <span>Mid-term Exams</span>
+                        <span class="badge bg-primary rounded-pill">March 12</span>
+                    </div>
+                    <div class="list-group-item d-flex justify-content-between align-items-center py-3 px-4">
+                        <span>Industrial Attachment</span>
+                        <span class="badge bg-primary rounded-pill">May 20</span>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-dark mt-4 px-4 py-2 rounded-3 w-100">
+                    <i class="bi bi-file-pdf me-2"></i>Download Full Calendar 2024
+                </a>
+            </div>
+            <div class="col-lg-7">
+                <div class="calendar-img-wrapper p-2 bg-white shadow rounded-4">
+                    <img src="https://www.shutterstock.com/image-photo/graduation-cap-2026-calendar-on-260nw-2628434293.jpg" class="img-fluid rounded-3" alt="Calendar Concept">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Upcoming Events Highlight (Carousel) -->
+<section class="py-5 bg-primary text-white overflow-hidden">
+    <div class="container py-4">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Upcoming Events</h2>
+            <div class="mx-auto bg-white opacity-50" style="height: 3px; width: 50px;"></div>
+        </div>
+        
+        <div id="eventCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-8">
+                            <i class="bi bi-mortarboard fs-1 opacity-50 mb-3"></i>
+                            <h3 class="display-6 fw-bold mb-2">Annual Convocation 2024</h3>
+                            <p class="lead opacity-75">Date: December 28, 2024 | Venue: TTC Main Auditorium</p>
+                            <p class="px-md-5">Join us as we celebrate the success of our graduating batch. Special prizes will be awarded to top performers in each trade.</p>
+                            <button class="btn btn-outline-light mt-3 rounded-pill px-4">Event Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-8">
+                            <i class="bi bi-robot fs-1 opacity-50 mb-3"></i>
+                            <h3 class="display-6 fw-bold mb-2">National Skill Fair</h3>
+                            <p class="lead opacity-75">Date: November 10, 2024 | Time: 9:00 AM</p>
+                            <p class="px-md-5">A platform where industry leaders meet our creative students. Showcase your innovations and secure job placements.</p>
+                            <button class="btn btn-outline-light mt-3 rounded-pill px-4">Register Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#eventCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon opacity-25"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#eventCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon opacity-25"></span>
+            </button>
+        </div>
+    </div>
+</section>
+<br>
+
+
+
+<!-- Big Footer Section -->
+<footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <h4 class="fw-bold text-primary mb-4">TTC BANGLADESH</h4>
+                <p class="text-secondary">Providing quality technical education to empower individuals and serve the community since 1995.</p>
+                <div class="d-flex gap-3 fs-5 mt-4">
+                    <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-2 offset-lg-1">
+                <h5 class="fw-bold mb-4">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="home.html" class="text-secondary text-decoration-none hover-link">Home</a></li>
+                    <li class="mb-2"><a href="about.html" class="text-secondary text-decoration-none hover-link">About Us</a></li>
+                    <li class="mb-2"><a href="courses.html" class="text-secondary text-decoration-none hover-link">All Courses</a></li>
+                    <li class="mb-2"><a href="admission.html" class="text-secondary text-decoration-none hover-link">Admission</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <h5 class="fw-bold mb-4">Information</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="notice.html" class="text-secondary text-decoration-none hover-link">Latest Notice</a></li>
+                    <li class="mb-2"><a href="faculty.html" class="text-secondary text-decoration-none hover-link">Faculty List</a></li>
+                    <li class="mb-2"><a href="contact.html" class="text-secondary text-decoration-none hover-link">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <h5 class="fw-bold mb-4">Contact Detail</h5>
+                <p class="text-secondary mb-2"><i class="bi bi-geo-alt-fill text-primary me-2"></i>Education Road, Lalmonirhat</p>
+                <p class="text-secondary mb-2"><i class="bi bi-telephone-fill text-primary me-2"></i> +88 01758484392</p>
+                <p class="text-secondary"><i class="bi bi-envelope-fill text-primary me-2"></i> info@ttc.edu.bd</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Footer Bottom Section -->
+<div class="bg-black text-white-50 py-3 border-top border-secondary">
+    <div class="container text-center text-md-start d-md-flex justify-content-between">
+        <p class="small mb-0"> 2024 Technical Training Center (TTC). All rights reserved.</p>
+        <p class="small mb-0">Developed by Student Project</p>
+    </div>
+</div>
+
+    <style>
+        .notice-item {
+            transition: all 0.3s ease;
+        }
+        .notice-item:hover {
+            background-color: #f8f9fa !important;
+            transform: scale(1.005);
+        }
+        .date-box {
+            min-width: 65px;
+        }
+        .calendar-img-wrapper img {
+            height: 350px;
+            width: 100%;
+            object-fit: cover;
+        }
+        #eventCarousel .carousel-item {
+            padding: 2rem 0;
+    }
+    </style>
+
+    <script src="js.js"></script>
+
+    </div>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

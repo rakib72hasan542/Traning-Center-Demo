@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Technical Training Center (TTC)</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <div class="container">
+        <!-- Header Top Section -->
+<header class="bg-dark text-white py-2 border-bottom border-secondary">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <div class="d-flex gap-3 small">
+            <span><i class="bi bi-envelope-fill text-primary me-1"></i> info@ttc-edu.gov.bd</span>
+            <span><i class="bi bi-telephone-fill text-primary me-1"></i> +880 01758484392</span>
+        </div>
+        <div class="d-flex align-items-center gap-3 mt-2 mt-md-0">
+            <span id="currentDateTime" class="small border-end pe-3 me-2"></span>
+            <a href="login.html" class="text-white text-decoration-none small"><i class="bi bi-person-circle me-1"></i> Login</a>
+        </div>
+    </div>
+</header>
+
+<!-- Navigation Section -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm py-3">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-primary fs-3" href="index.html">
+            <i class="bi bi-mortarboard-fill me-2"></i>NJTC
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMain">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                <li class="nav-item"><a class="nav-link" href="teacher.html">Teacher</a></li>
+                <li class="nav-item"><a class="nav-link" href="notice.html">Notice</a></li>
+                <li class="nav-item"><a class="nav-link active" href="admission.html">Admission</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item ms-lg-3"><a class="btn btn-primary rounded-pill px-4" href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- //------------------------------------------------------------------------------------------------------------------------------// -->
+    <!-- Breadcrumb Section -->
+<section class="bg-light py-4 border-bottom">
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="home.html" class="text-decoration-none">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Admission 2024</li>
+            </ol>
+        </nav>
+    </div>
+</section>
+
+<!-- Admission Eligibility Criteria -->
+<section class="py-5">
+    <div class="container">
+        <div class="row g-4 align-items-center">
+            <div class="col-lg-6">
+                <h2 class="fw-bold mb-4">Admission Eligibility</h2>
+                <div class="d-flex mb-3">
+                    <div class="flex-shrink-0"><i class="bi bi-patch-check-fill text-primary fs-4"></i></div>
+                    <div class="ms-3">
+                        <h6 class="fw-bold mb-1">Educational Qualification</h6>
+                        <p class="text-muted small">Minimum SSC or equivalent passing certificate from any recognized board.</p>
+                    </div>
+                </div>
+                <div class="d-flex mb-3">
+                    <div class="flex-shrink-0"><i class="bi bi-patch-check-fill text-primary fs-4"></i></div>
+                    <div class="ms-3">
+                        <h6 class="fw-bold mb-1">Age Limit</h6>
+                        <p class="text-muted small">Applicant must be between 16 to 30 years of age at the time of application.</p>
+                    </div>
+                </div>
+                <div class="d-flex mb-3">
+                    <div class="flex-shrink-0"><i class="bi bi-patch-check-fill text-primary fs-4"></i></div>
+                    <div class="ms-3">
+                        <h6 class="fw-bold mb-1">Health & Fitness</h6>
+                        <p class="text-muted small">Must possess sound physical and mental health for technical workshops.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="bg-primary text-white p-5 rounded-4 shadow-lg">
+                    <h3 class="fw-bold mb-3">Need Help?</h3>
+                    <p>If you have any questions regarding the admission process, our helpline is open from 9 AM to 5 PM.</p>
+                    <hr class="bg-white">
+                    <div class="fs-4 fw-bold mt-3"><i class="bi bi-headset me-2"></i> +880 1999 000 111</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Admission Form Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card border-0 shadow rounded-4 overflow-hidden">
+                    <div class="bg-primary py-3 px-4">
+                        <h4 class="text-white mb-0 h5"><i class="bi bi-file-earmark-text me-2"></i>Online Admission Form</h4>
+                    </div>
+                    <div class="card-body p-4 p-md-5">
+                        <form id="admissionForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label fw-semibold">Full Name</label>
+                                    <input type="text" class="form-control" placeholder="Rakib Hasan" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-semibold">Phone Number</label>
+                                    <input type="tel" class="form-control" placeholder="017xxxxxxxx" required>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label fw-semibold">Email Address</label>
+                                    <input type="email" class="form-control" placeholder="rakib@example.com" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-semibold">Select Trade</label>
+                                    <select class="form-select" required>
+                                        <option value="" selected disabled>Choose Trade...</option>
+                                        <option>Computer Technology</option>
+                                        <option>Electrical Works</option>
+                                        <option>Mechanical Trade</option>
+                                        <option>Automobile Engineering</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-semibold">Gender</label>
+                                    <div class="mt-2">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="gender" id="male" value="male" checked>
+                                            <label class="form-check-label" for="male">Male</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+                                            <label class="form-check-label" for="female">Female</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-4 text-center">
+                                    <button type="submit" class="btn btn-primary px-5 py-2 rounded-pill fw-bold">Submit Application</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Important Dates Section -->
+<section class="py-5">
+    <div class="container">
+        <h3 class="fw-bold mb-4 text-center">Important Admission Dates</h3>
+        <div class="row g-3">
+            <div class="col-md-4">
+                <div class="p-4 border-start border-4 border-info bg-light">
+                    <small class="text-info fw-bold">START DATE</small>
+                    <h5 class="mb-0 fw-bold">November 01, 2024</h5>
+                    <p class="small text-muted mb-0">Online application opens at 10 AM.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 border-start border-4 border-danger bg-light">
+                    <small class="text-danger fw-bold">LAST DATE</small>
+                    <h5 class="mb-0 fw-bold">December 15, 2024</h5>
+                    <p class="small text-muted mb-0">Closing of all application portals.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 border-start border-4 border-success bg-light">
+                    <small class="text-success fw-bold">CLASSES START</small>
+                    <h5 class="mb-0 fw-bold">January 05, 2025</h5>
+                    <p class="small text-muted mb-0">Orientation and primary sessions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Successful Alumni Testimonial (Slider) -->
+<section class="py-5 bg-dark text-white overflow-hidden">
+    <div class="container">
+        <h3 class="fw-bold mb-5 text-center">Words from our Alumni</h3>
+        <div id="alumniSlider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="text-center px-lg-5">
+                        <img src="https://i.pravatar.cc/100?u=alumni1" class="rounded-circle mb-3 border border-3 border-primary p-1" width="100" alt="Alumni">
+                        <p class="fs-5 fst-italic mb-4">"The training at TTC changed my life. Within 3 months of finishing my Computer Tech course, I was hired by a top software firm. Highly recommended!"</p>
+                        <h6 class="fw-bold mb-0 text-primary">Md. Ashraful Islam</h6>
+                        <small class="text-white-50">Batch of 2021 | Senior Developer at Tech-V</small>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="text-center px-lg-5">
+                        <img src="https://i.pravatar.cc/100?u=alumni2" class="rounded-circle mb-3 border border-3 border-primary p-1" width="100" alt="Alumni">
+                        <p class="fs-5 fst-italic mb-4">"Hands-on experience in the Electrical Lab gave me the confidence to start my own workshop. TTC is the best place for career growth."</p>
+                        <h6 class="fw-bold mb-0 text-primary">Jannatul Ferdous</h6>
+                        <small class="text-white-50">Batch of 2019 | Entrepreneur</small>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4 text-center">
+                <button class="btn btn-outline-light btn-sm rounded-circle me-2" type="button" data-bs-target="#alumniSlider" data-bs-slide="prev">
+                    <i class="bi bi-arrow-left"></i>
+                </button>
+                <button class="btn btn-outline-light btn-sm rounded-circle" type="button" data-bs-target="#alumniSlider" data-bs-slide="next">
+                    <i class="bi bi-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+</script>
+
+
+<br>
+
+<!-- Big Footer Section -->
+<footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <h4 class="fw-bold text-primary mb-4">TTC BANGLADESH</h4>
+                <p class="text-secondary">Providing quality technical education to empower individuals and serve the community since 1995.</p>
+                <div class="d-flex gap-3 fs-5 mt-4">
+                    <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-2 offset-lg-1">
+                <h5 class="fw-bold mb-4">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="home.html" class="text-secondary text-decoration-none hover-link">Home</a></li>
+                    <li class="mb-2"><a href="about.html" class="text-secondary text-decoration-none hover-link">About Us</a></li>
+                    <li class="mb-2"><a href="courses.html" class="text-secondary text-decoration-none hover-link">All Courses</a></li>
+                    <li class="mb-2"><a href="admission.html" class="text-secondary text-decoration-none hover-link">Admission</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <h5 class="fw-bold mb-4">Information</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="notice.html" class="text-secondary text-decoration-none hover-link">Latest Notice</a></li>
+                    <li class="mb-2"><a href="faculty.html" class="text-secondary text-decoration-none hover-link">Faculty List</a></li>
+                    <li class="mb-2"><a href="contact.html" class="text-secondary text-decoration-none hover-link">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <h5 class="fw-bold mb-4">Contact Detail</h5>
+                <p class="text-secondary mb-2"><i class="bi bi-geo-alt-fill text-primary me-2"></i>Education Road, Lalmonirhat</p>
+                <p class="text-secondary mb-2"><i class="bi bi-telephone-fill text-primary me-2"></i> +88 01758484392</p>
+                <p class="text-secondary"><i class="bi bi-envelope-fill text-primary me-2"></i> info@ttc.edu.bd</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Footer Bottom Section -->
+<div class="bg-black text-white-50 py-3 border-top border-secondary">
+    <div class="container text-center text-md-start d-md-flex justify-content-between">
+        <p class="small mb-0"> 2024 Technical Training Center (TTC). All rights reserved.</p>
+        <p class="small mb-0">Developed by Student Project</p>
+    </div>
+</div>
+
+    <style>
+    .form-control:focus, .form-select:focus {
+        border-color: var(--bs-primary);
+        box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.1);
+    }
+</style>
+
+    <script src="js.js"></script>
+
+    </div>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

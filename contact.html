@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Technical Training Center (TTC)</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <div class="container">
+        <!-- Header Top Section -->
+<header class="bg-dark text-white py-2 border-bottom border-secondary">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <div class="d-flex gap-3 small">
+            <span><i class="bi bi-envelope-fill text-primary me-1"></i> info@ttc-edu.gov.bd</span>
+            <span><i class="bi bi-telephone-fill text-primary me-1"></i> +880 01758484392</span>
+        </div>
+        <div class="d-flex align-items-center gap-3 mt-2 mt-md-0">
+            <span id="currentDateTime" class="small border-end pe-3 me-2"></span>
+            <a href="login.html" class="text-white text-decoration-none small"><i class="bi bi-person-circle me-1"></i> Login</a>
+        </div>
+    </div>
+</header>
+
+<!-- Navigation Section -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm py-3">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-primary fs-3" href="index.html">
+            <i class="bi bi-mortarboard-fill me-2"></i>NJTC
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMain">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                <li class="nav-item"><a class="nav-link" href="teacher.html">Teacher</a></li>
+                <li class="nav-item"><a class="nav-link" href="notice.html">Notice</a></li>
+                <li class="nav-item"><a class="nav-link" href="admission.html">Admission</a></li>
+                <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                <li class="nav-item ms-lg-3"><a class="btn btn-primary rounded-pill px-4" href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- //------------------------------------------------------------------------------------------------------------------------------// -->
+        <!-- Breadcrumb Section -->
+<section class="bg-light py-4 border-bottom">
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="home.html" class="text-decoration-none">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+            </ol>
+        </nav>
+    </div>
+</section>
+
+<!-- Office Address & Contact Info Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h6 class="text-primary fw-bold text-uppercase">Find Us</h6>
+            <h2 class="display-6 fw-bold">Get In Touch</h2>
+            <div class="mx-auto bg-primary mt-2" style="height: 3px; width: 60px;"></div>
+        </div>
+        
+        <div class="row g-4 text-center">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm p-4 rounded-4">
+                    <div class="icon-circle bg-primary-subtle text-primary mx-auto mb-3">
+                        <i class="bi bi-geo-alt fs-3"></i>
+                    </div>
+                    <h5 class="fw-bold">Office Address</h5>
+                    <p class="text-muted small mb-0">123 Education Road, Skills District,<br>Dhaka-1212, Bangladesh</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm p-4 rounded-4">
+                    <div class="icon-circle bg-success-subtle text-success mx-auto mb-3">
+                        <i class="bi bi-telephone-inbound fs-3"></i>
+                    </div>
+                    <h5 class="fw-bold">Phone & Mobile</h5>
+                    <p class="text-muted small mb-0">+880 1234-567890<br>+880 9876-543210</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm p-4 rounded-4">
+                    <div class="icon-circle bg-info-subtle text-info mx-auto mb-3">
+                        <i class="bi bi-envelope-at fs-3"></i>
+                    </div>
+                    <h5 class="fw-bold">Email Support</h5>
+                    <p class="text-muted small mb-0">info@ttc-edu.gov.bd<br>admissions@ttc.edu.bd</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Us Message Form & Map Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row g-5">
+            <!-- Contact Form -->
+            <div class="col-lg-6">
+                <div class="bg-white p-4 p-md-5 rounded-4 shadow-sm">
+                    <h3 class="fw-bold mb-4">Send us a Message</h3>
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Your Name</label>
+                            <input type="text" class="form-control bg-light border-0 py-2" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold">Email Address</label>
+                                <input type="email" class="form-control bg-light border-0 py-2" placeholder="email@example.com" required>
+                            </div>
+                            <div class="col-md-6 mt-3 mt-md-0">
+                                <label class="form-label fw-semibold">Subject</label>
+                                <input type="text" class="form-control bg-light border-0 py-2" placeholder="Topic of inquiry" required>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold">Message</label>
+                            <textarea class="form-control bg-light border-0 py-2" rows="5" placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 py-3 rounded-pill fw-bold shadow-sm">
+                            <i class="bi bi-send me-2"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <!-- Google Map -->
+            <div class="col-lg-6">
+                <div class="h-100 rounded-4 overflow-hidden shadow-sm border bg-white p-2">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.90244243014!2d90.3910801!3d23.7508672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8bd55555555%3A0x7d8a6e8b4e8b8e8b!2sDhaka!5e0!3m2!1sen!2sbd!4v1700000000000!5m2!1sen!2sbd" 
+                        width="100%" height="100%" style="border:0; min-height: 400px;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Office Environment Gallery (Carousel) -->
+<section class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h3 class="fw-bold">Our Office Environment</h3>
+            <p class="text-muted">A professional place where dreams take flight</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div id="officeGallery" class="carousel slide rounded-4 overflow-hidden shadow-lg" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200" class="d-block w-100" alt="Reception">
+                            <div class="carousel-caption bg-dark bg-opacity-50 rounded">
+                                <h5>Main Reception Area</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=1200" class="d-block w-100" alt="Work space">
+                            <div class="carousel-caption bg-dark bg-opacity-50 rounded">
+                                <h5>Administrative Workspace</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.unsplash.com/photo-1517502884422-41eaadeff175?auto=format&fit=crop&q=80&w=1200" class="d-block w-100" alt="Conference Room">
+                            <div class="carousel-caption bg-dark bg-opacity-50 rounded">
+                                <h5>Conference Room</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#officeGallery" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#officeGallery" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+</script>
+
+
+
+
+<!-- Big Footer Section -->
+<footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <h4 class="fw-bold text-primary mb-4">TTC BANGLADESH</h4>
+                <p class="text-secondary">Providing quality technical education to empower individuals and serve the community since 1995.</p>
+                <div class="d-flex gap-3 fs-5 mt-4">
+                    <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-2 offset-lg-1">
+                <h5 class="fw-bold mb-4">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="home.html" class="text-secondary text-decoration-none hover-link">Home</a></li>
+                    <li class="mb-2"><a href="about.html" class="text-secondary text-decoration-none hover-link">About Us</a></li>
+                    <li class="mb-2"><a href="courses.html" class="text-secondary text-decoration-none hover-link">All Courses</a></li>
+                    <li class="mb-2"><a href="admission.html" class="text-secondary text-decoration-none hover-link">Admission</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <h5 class="fw-bold mb-4">Information</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="notice.html" class="text-secondary text-decoration-none hover-link">Latest Notice</a></li>
+                    <li class="mb-2"><a href="faculty.html" class="text-secondary text-decoration-none hover-link">Faculty List</a></li>
+                    <li class="mb-2"><a href="contact.html" class="text-secondary text-decoration-none hover-link">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <h5 class="fw-bold mb-4">Contact Detail</h5>
+                <p class="text-secondary mb-2"><i class="bi bi-geo-alt-fill text-primary me-2"></i>Education Road, Lalmonirhat</p>
+                <p class="text-secondary mb-2"><i class="bi bi-telephone-fill text-primary me-2"></i> +88 01758484392</p>
+                <p class="text-secondary"><i class="bi bi-envelope-fill text-primary me-2"></i> info@ttc.edu.bd</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Footer Bottom Section -->
+<div class="bg-black text-white-50 py-3 border-top border-secondary">
+    <div class="container text-center text-md-start d-md-flex justify-content-between">
+        <p class="small mb-0"> 2024 Technical Training Center (TTC). All rights reserved.</p>
+        <p class="small mb-0">Developed by Student Project</p>
+    </div>
+</div>
+        <style>
+    .icon-circle {
+        width: 70px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+    #officeGallery .carousel-item img {
+        height: 450px;
+        object-fit: cover;
+    }
+    @media (max-width: 768px) {
+        #officeGallery .carousel-item img {
+            height: 300px;
+        }
+    }
+</style>
+
+
+    <script src="js.js"></script>
+
+    </div>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

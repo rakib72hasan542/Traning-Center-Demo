@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Technical Training Center (TTC)</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <div class="container">
+        <!-- Header Top Section -->
+<header class="bg-dark text-white py-2 border-bottom border-secondary">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <div class="d-flex gap-3 small">
+            <span><i class="bi bi-envelope-fill text-primary me-1"></i> info@ttc-edu.gov.bd</span>
+            <span><i class="bi bi-telephone-fill text-primary me-1"></i> +880 01758484392</span>
+        </div>
+        <div class="d-flex align-items-center gap-3 mt-2 mt-md-0">
+            <span id="currentDateTime" class="small border-end pe-3 me-2"></span>
+            <a href="login.html" class="text-white text-decoration-none small"><i class="bi bi-person-circle me-1"></i> Login</a>
+        </div>
+    </div>
+</header>
+
+<!-- Navigation Section -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm py-3">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-primary fs-3" href="index.html">
+            <i class="bi bi-mortarboard-fill me-2"></i>NJTC
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMain">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                <li class="nav-item"><a class="nav-link active" href="teacher.html">Teacher</a></li>
+                <li class="nav-item"><a class="nav-link" href="notice.html">Notice</a></li>
+                <li class="nav-item"><a class="nav-link" href="admission.html">Admission</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item ms-lg-3"><a class="btn btn-primary rounded-pill px-4" href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- //------------------------------------------------------------------------------------------------------------------------------// -->
+    <!-- Breadcrumb Section -->
+<section class="bg-light py-4 border-bottom">
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="home.html" class="text-decoration-none">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Faculty & Teacher</li>
+            </ol>
+        </nav>
+    </div>
+</section>
+
+<!-- Head of Departments Section -->
+<section class="py-5">
+    <div class="container py-3">
+        <div class="text-center mb-5">
+            <h6 class="text-primary fw-bold text-uppercase">Leadership</h6>
+            <h2 class="display-6 fw-bold">Heads of Departments</h2>
+            <div class="mx-auto bg-primary mt-2" style="height: 3px; width: 60px;"></div>
+        </div>
+        
+        <div class="row g-4 justify-content-center">
+            <!-- HoD 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card border-0 shadow-sm text-center p-4 rounded-4 transition-hover">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWWh-1PedCbXLx3xgYCuwVkbgIREPBTAYljQEGr9o0_CgVGkVaTd_ouBA&s=10" class="rounded-circle mx-auto mb-3 border border-4 border-primary p-1" width="120" alt="HoD">
+                    <h5 class="fw-bold mb-1">Engr. Rahim Uddin</h5>
+                    <p class="text-primary small fw-semibold uppercase mb-3">Head of Computer Tech</p>
+                    <p class="small text-muted">Over 15 years of industry experience in Software Engineering.</p>
+                    <div class="d-flex justify-content-center gap-2">
+                        <a href="#" class="btn btn-light btn-sm rounded-circle"><i class="bi bi-envelope"></i></a>
+                        <a href="#" class="btn btn-light btn-sm rounded-circle"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- HoD 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card border-0 shadow-sm text-center p-4 rounded-4 transition-hover border-top border-primary border-4">
+                    <img src="https://thumbs.dreamstime.com/b/confident-female-teacher-hands-chin-sitting-desk-portrait-classroom-31236404.jpg" class="rounded-circle mx-auto mb-3 border border-4 border-primary p-1" width="130" height="130" alt="HoD">
+                    <h5 class="fw-bold mb-1">Engr. Sumaiya Akter</h5>
+                    <p class="text-primary small fw-semibold uppercase mb-3">Head of Electrical Tech</p>
+                    <p class="small text-muted">Specialist in Renewable Energy and Power Grid Systems.</p>
+                    <div class="d-flex justify-content-center gap-2">
+                        <a href="#" class="btn btn-light btn-sm rounded-circle"><i class="bi bi-envelope"></i></a>
+                        <a href="#" class="btn btn-light btn-sm rounded-circle"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Instructor List (Bootstrap Cards) -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h3 class="fw-bold mb-4 border-start border-primary border-4 ps-3">Senior Instructors</h3>
+        <div class="row g-4">
+            <!-- Instructor 1 -->
+            <div class="col-xl-3 col-md-6">
+                <div class="card border-0 shadow-sm overflow-hidden h-100 instructor-card">
+                    <img src="https://i.pravatar.cc/300?u=ins1" class="card-img-top" alt="Instructor">
+                    <div class="card-body">
+                        <h6 class="fw-bold mb-1">Mr. Karim Ahmed</h6>
+                        <p class="text-muted small mb-3">Senior Web Instructor</p>
+                        <hr class="my-2 opacity-25">
+                        <p class="card-text small text-secondary">Expert in MERN Stack and Industrial Web Solutions for various clients.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Instructor 2 -->
+            <div class="col-xl-3 col-md-6">
+                <div class="card border-0 shadow-sm overflow-hidden h-100 instructor-card">
+                    <img src="https://i.pravatar.cc/300?u=ins2" class="card-img-top" alt="Instructor">
+                    <div class="card-body">
+                        <h6 class="fw-bold mb-1">Ms. Fatema Begum</h6>
+                        <p class="text-muted small mb-3">Graphic Design Mentor</p>
+                        <hr class="my-2 opacity-25">
+                        <p class="card-text small text-secondary">10+ years of experience in Branding, UI/UX, and Digital Artistry.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Instructor 3 -->
+            <div class="col-xl-3 col-md-6">
+                <div class="card border-0 shadow-sm overflow-hidden h-100 instructor-card">
+                    <img src="https://i.pravatar.cc/300?u=ins3" class="card-img-top" alt="Instructor">
+                    <div class="card-body">
+                        <h6 class="fw-bold mb-1">Engr. Asif Zaman</h6>
+                        <p class="text-muted small mb-3">Civil Engr. Instructor</p>
+                        <hr class="my-2 opacity-25">
+                        <p class="card-text small text-secondary">Lead consultant for municipal construction and bridge design.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Instructor 4 -->
+            <div class="col-xl-3 col-md-6">
+                <div class="card border-0 shadow-sm overflow-hidden h-100 instructor-card">
+                    <img src="https://i.pravatar.cc/300?u=ins4" class="card-img-top" alt="Instructor">
+                    <div class="card-body">
+                        <h6 class="fw-bold mb-1">Mr. Tanvir Hossain</h6>
+                        <p class="text-muted small mb-3">Automobile Specialist</p>
+                        <hr class="my-2 opacity-25">
+                        <p class="card-text small text-secondary">Master Technician specializing in EFI engines and Hybrid systems.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Staff Directory Section -->
+<section class="py-5">
+    <div class="container">
+        <h3 class="fw-bold mb-4">Administration & Support Staff</h3>
+        <div class="table-responsive rounded-3 shadow-sm">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-dark">
+                    <tr>
+                        <th class="ps-4">Name</th>
+                        <th>Position</th>
+                        <th>Department</th>
+                        <th class="text-end pe-4">Contact</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="ps-4 fw-semibold">Rashedul Islam</td>
+                        <td>Office Admin</td>
+                        <td>Registrar Office</td>
+                        <td class="text-end pe-4 small text-primary"><i class="bi bi-telephone"></i> Ext: 101</td>
+                    </tr>
+                    <tr>
+                        <td class="ps-4 fw-semibold">Mariam J.</td>
+                        <td>Librarian</td>
+                        <td>Central Library</td>
+                        <td class="text-end pe-4 small text-primary"><i class="bi bi-telephone"></i> Ext: 205</td>
+                    </tr>
+                    <tr>
+                        <td class="ps-4 fw-semibold">Abdul Kaddus</td>
+                        <td>Lab Technician</td>
+                        <td>Mechanical Workshop</td>
+                        <td class="text-end pe-4 small text-primary"><i class="bi bi-telephone"></i> Ext: 302</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- Guest Lecturers (Carousel) -->
+<section class="py-5 bg-dark text-white" style="border-radius: 12px;">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Guest Lecturers</h2>
+            <p class="text-white-50">Experts from Top Industries</p>
+        </div>
+        
+        <div id="guestCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner text-center">
+                <div class="carousel-item active">
+                    <div class="p-4 bg-secondary bg-opacity-25 rounded-4 mx-auto" style="max-width: 600px;">
+                        <img src="https://i.pravatar.cc/100?u=guest1" class="rounded-circle mb-3 border border-3 border-light" alt="Guest">
+                        <h4>Dr. Robert Brown</h4>
+                        <p class="text-info">Ex-Manager, Google Robotics</p>
+                        <q class="fst-italic opacity-75">"Giving students the tools for tomorrow is the best gift we can provide today."</q>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="p-4 bg-secondary bg-opacity-25 rounded-4 mx-auto" style="max-width: 600px;">
+                        <img src="https://i.pravatar.cc/100?u=guest2" class="rounded-circle mb-3 border border-3 border-light" alt="Guest">
+                        <h4>Engr. Sarah J.</h4>
+                        <p class="text-info">CTO, TechBD Solutions</p>
+                        <q class="fst-italic opacity-75">"Industry and Academy must walk hand-in-hand for a better economy."</q>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#guestCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#guestCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<br>
+
+
+<!-- Big Footer Section -->
+<footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <h4 class="fw-bold text-primary mb-4">TTC BANGLADESH</h4>
+                <p class="text-secondary">Providing quality technical education to empower individuals and serve the community since 1995.</p>
+                <div class="d-flex gap-3 fs-5 mt-4">
+                    <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-2 offset-lg-1">
+                <h5 class="fw-bold mb-4">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="home.html" class="text-secondary text-decoration-none hover-link">Home</a></li>
+                    <li class="mb-2"><a href="about.html" class="text-secondary text-decoration-none hover-link">About Us</a></li>
+                    <li class="mb-2"><a href="courses.html" class="text-secondary text-decoration-none hover-link">All Courses</a></li>
+                    <li class="mb-2"><a href="admission.html" class="text-secondary text-decoration-none hover-link">Admission</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <h5 class="fw-bold mb-4">Information</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="notice.html" class="text-secondary text-decoration-none hover-link">Latest Notice</a></li>
+                    <li class="mb-2"><a href="faculty.html" class="text-secondary text-decoration-none hover-link">Faculty List</a></li>
+                    <li class="mb-2"><a href="contact.html" class="text-secondary text-decoration-none hover-link">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <h5 class="fw-bold mb-4">Contact Detail</h5>
+                <p class="text-secondary mb-2"><i class="bi bi-geo-alt-fill text-primary me-2"></i>Education Road, Lalmonirhat</p>
+                <p class="text-secondary mb-2"><i class="bi bi-telephone-fill text-primary me-2"></i> +88 01758484392</p>
+                <p class="text-secondary"><i class="bi bi-envelope-fill text-primary me-2"></i> info@ttc.edu.bd</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Footer Bottom Section -->
+<div class="bg-black text-white-50 py-3 border-top border-secondary">
+    <div class="container text-center text-md-start d-md-flex justify-content-between">
+        <p class="small mb-0"> 2024 Technical Training Center (TTC). All rights reserved.</p>
+        <p class="small mb-0">Developed by Student Project</p>
+    </div>
+</div>
+
+
+    <style>
+        .transition-hover:hover {
+            transform: translateY(-10px);
+            transition: transform 0.3s ease;
+        }
+        .instructor-card img {
+            height: 250px;
+            object-fit: cover;
+        }
+        .instructor-card:hover {
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+        }
+        .carousel-control-prev, .carousel-control-next {
+            width: 5%;
+        }
+    </style>
+    <script src="js.js"></script>
+
+    </div>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
